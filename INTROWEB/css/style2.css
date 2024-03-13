@@ -1,0 +1,10 @@
+.container {
+    width: 160px;
+    height: 74px;
+    background-color: bisque;
+    padding: 10px;
+    border: solid 5px black;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
