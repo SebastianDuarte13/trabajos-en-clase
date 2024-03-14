@@ -1,0 +1,17 @@
+.parent{
+    border: 5px solid black;
+    width: 450px;
+    height: 250px;
+    box-sizing: border-box;
+    position:   relative;
+}
+
+
+.container{
+    background: rgb(84, 158, 238);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}

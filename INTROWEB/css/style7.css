@@ -1,0 +1,23 @@
+body{
+
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 4PX solid black;
+    writing-mode: vertical-lr; 
+}
+.item{
+    border: 1px solid;
+    opacity: 0.9;
+    width: 100px;
+    height: 100px;
+    background: rgb(108, 151, 210);
+}
+.item:first-child{
+    background: yellow;
+}
+.item:last-child{
+    background: rgb(210, 12, 65);
+}
